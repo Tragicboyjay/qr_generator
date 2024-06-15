@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create | QR Gen</title>
+    <link rel="shortcut icon" href="qr-code.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d75e165c56.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>QR Gen <i class="fa-solid fa-qrcode"></i></h1>
+      <div id="appContainer">
+        <form id="qrForm">
+          <input type="text" id="qrInput" required>
+          <button type="submit">Create</button>
+        </form>
+        <div id="qrContainer">
+          <h3>Input text to generate a QR code. </h3>
+        </div>
+      </div>
+      <footer>
+        <h4><a href="https://github.com/Tragicboyjay"><i class="fa-brands fa-github"></i></a> <a href="https://www.linkedin.com/in/justicemanly/"><i class="fa-brands fa-linkedin"></i></a></h4>
+        <h4>QR Gen - Created by Justice Manly © 2024. All rights reserved.</h4>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
